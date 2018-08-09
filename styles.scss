@@ -7,8 +7,9 @@
   text-align: center;
 }
 
-body {
+main {
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero {
@@ -19,7 +20,6 @@ body {
   background-size: cover;
   background-position: center center;
   color: white;
-  font-family: "Montserrat", sans-serif;
   display: inline-flex;
   align-items: center;
 
@@ -44,6 +44,23 @@ body {
   }
 }
 
+.about,
+.samples {
+  h1 {
+    font-size: 3vw;
+    height: 7vw;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 2vw;
+    height: 5vw;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
 .about {
   height: 100vh;
   width: 100vw;
@@ -52,14 +69,6 @@ body {
   background-size: cover;
   background-position: center center;
   color: white;
-  font-family: "Montserrat", sans-serif;
-
-  h1 {
-    font-size: 3vw;
-    height: 7.5vw;
-    display: inline-flex;
-    align-items: center;
-  }
 
   p {
     font-size: 1.5vw;
@@ -73,10 +82,31 @@ body {
     width: 75%;
     height: 8vw;
     margin: 0 auto;
-    span {
-      img {
-        height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.samples {
+  .app {
+    .links {
+      a {
+        text-decoration: none;
+        color: #5474bb;
       }
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      font-size: 1.25vw;
+      width: 75%;
+      margin: 0 auto;
+      line-height: 2.5vw;
     }
   }
 }
