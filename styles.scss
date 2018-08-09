@@ -59,6 +59,13 @@ main {
     display: inline-flex;
     align-items: center;
   }
+
+  p {
+    font-size: 1.25vw;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 2.5vw;
+  }
 }
 
 .about {
@@ -71,11 +78,7 @@ main {
   color: white;
 
   p {
-    font-size: 1.5vw;
-    width: 75%;
-    margin: 0 auto;
-    line-height: 3vw;
-    height: 18vw;
+    height: 15vw;
   }
 
   div {
@@ -91,22 +94,20 @@ main {
 .samples {
   .app {
     .links {
+      font-size: 1.5vw;
+      height: 3vw;
+
       a {
         text-decoration: none;
         color: #5474bb;
+        display: inline-flex;
+        align-items: center;
       }
     }
 
     img {
       display: block;
       margin: 0 auto;
-    }
-
-    p {
-      font-size: 1.25vw;
-      width: 75%;
-      margin: 0 auto;
-      line-height: 2.5vw;
     }
   }
 }
