@@ -118,6 +118,7 @@ main {
 
 @media screen and (max-width:900px) {
   .hero {
+    height: 150vw;
     .intro {
       h1 {
         height: 8vw;
@@ -132,7 +133,7 @@ main {
       }
 
       img {
-        width: 100%;
+        width: 85%;
       }
     }
   }
@@ -163,25 +164,25 @@ main {
   }
 
   .about {
-    height: auto;
+    height: 1600px;
     p {
       height: auto;
     }
 
     .row1 {
-      width: 75%;
-      height: 50%;
+      width: 50%;
+      height: 33%;
       margin: 0 auto;
       img {
         height: 25%;
       }
     }
     .row2 {
-      width: 75%;
-      height: 75%;
+      width: 50%;
+      height: 16.5%;
       margin: 0 auto;
       img {
-        height: 25%;
+        height: 50%;
       }
     }
   }
