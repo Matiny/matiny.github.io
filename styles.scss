@@ -58,6 +58,7 @@ main {
     height: 5vw;
     display: inline-flex;
     align-items: center;
+    color: #777;
   }
 
   p {
@@ -108,6 +109,102 @@ main {
     img {
       display: block;
       margin: 0 auto;
+    }
+  }
+}
+
+
+// Media Queries
+
+@media screen and (max-width:900px) {
+  .hero {
+    .intro {
+      h1 {
+        height: 8vw;
+        font-size: 6vw;
+        letter-spacing: 1vw;
+      }
+
+      h2 {
+        font-size: 4vw;
+        height: 6vw;
+        letter-spacing: 0.5vw;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .about,
+  .samples {
+    h1 {
+      font-size: 6vw;
+      height: 12vw;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    h2 {
+      font-size: 4.5vw;
+      height: 12vw;
+      display: inline-flex;
+      align-items: center;
+      width: 85%;
+    }
+
+    p {
+      font-size: 4vw;
+      width: 75%;
+      margin: 0 auto;
+      line-height: 7vw;
+    }
+  }
+
+  .about {
+    height: auto;
+    p {
+      height: auto;
+    }
+
+    .row1 {
+      width: 75%;
+      height: 50%;
+      margin: 0 auto;
+      img {
+        height: 25%;
+      }
+    }
+    .row2 {
+      width: 75%;
+      height: 75%;
+      margin: 0 auto;
+      img {
+        height: 25%;
+      }
+    }
+  }
+
+  .samples {
+    .app {
+      .links {
+        font-size: 4vw;
+        height: 6vw;
+
+        a {
+          text-decoration: none;
+          color: #5474bb;
+          display: inline-flex;
+          align-items: center;
+        }
+      }
+
+      img {
+        display: block;
+        margin: 5% auto;
+        width: 90%;
+      }
     }
   }
 }
