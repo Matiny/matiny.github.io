@@ -82,13 +82,8 @@ main {
     height: 15vw;
   }
 
-  div {
-    width: 75%;
-    height: 8vw;
-    margin: 0 auto;
-    img {
-      height: 100%;
-    }
+  img {
+    width: 7.5%;
   }
 }
 
@@ -113,10 +108,9 @@ main {
   }
 }
 
-
 // Media Queries
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .hero {
     height: 150vw;
     .intro {
@@ -164,26 +158,12 @@ main {
   }
 
   .about {
-    height: 1600px;
+    height: auto;
     p {
       height: auto;
     }
-
-    .row1 {
-      width: 50%;
-      height: 33%;
-      margin: 0 auto;
-      img {
-        height: 25%;
-      }
-    }
-    .row2 {
-      width: 50%;
-      height: 16.5%;
-      margin: 0 auto;
-      img {
-        height: 50%;
-      }
+    img {
+      width: 33%;
     }
   }
 
