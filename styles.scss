@@ -110,7 +110,7 @@ main {
     .intro {
       h1 {
         padding: 3% 0;
-        font-size: 8vw;
+        font-size: 10vw;
         letter-spacing: 2vw;
       }
 
@@ -149,6 +149,9 @@ main {
 
   .samples {
     .app {
+      h1 {
+        font-size: 8vw;
+      }
       .links {
         font-size: 4vw;
         height: 6vw;
