@@ -26,14 +26,14 @@ main {
 }
 
 .hero .intro h1 {
-  font-size: 3.5vw;
-  letter-spacing: 0.5vw;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
   font-weight: 700;
 }
 
 .hero .intro h2 {
-  font-size: 2.5vw;
-  letter-spacing: 0.25vw;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
 }
 
 .hero .intro img {
@@ -50,25 +50,35 @@ main {
 }
 
 .gallery .app-box {
-  position: relative;
-  min-height: 31rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #ebedf0;
-}
-
-.gallery .app-box img {
-  width: 100%;
 }
 
 .gallery .app-box .caption {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1rem;
 }
 
 .gallery .app-box .name, .gallery .app-box .description {
-  padding: 1rem;
   color: #0f1a30;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .gallery .app-box .name {
@@ -81,11 +91,7 @@ main {
 }
 
 .gallery .app-box .icons {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   opacity: 0.5;
-  padding-bottom: 1rem;
 }
 
 .gallery .app-box .icons img {
